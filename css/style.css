@@ -1,0 +1,53 @@
+.menu__text__style {
+    font-family: cursive;
+    color: green;
+    font-size: 20px;
+}
+
+.problem__conditions {
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    margin-left: 30px;
+    float: left;
+}
+
+.problem__pic__image {
+    width: 30%;
+    height: 300px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+.x__coordinate {
+    margin-left: 40px;
+    float: left;
+}
+
+.x__coordinate__div {
+    position: relative;
+    width: 20px;
+    float: left;
+    margin-left: 30px;
+}
+
+.y__coordinate__div {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.r__radius__div {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.result__points {
+    position: relative;
+    background-color: red;
+    margin-top: 340px;
+}
+
+.table__result__texts {
+    text-align: center;
+}
