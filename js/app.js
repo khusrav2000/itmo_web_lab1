@@ -29,26 +29,22 @@ rRadius.addEventListener('input', function (event) {
 });
 
 function validYCoordinate(yCoordinate) {
-    if (yCoordinate.value == null)
+    if (yCoordinate == null)
         return false;
-    if (yCoordinate.value > 5.0)
-        return false;
-    if (yCoordinate.value < -3.0)
-        return false;
+    else if (-3.0 <= yCoordinate.value && yCoordinate.value <= 5.0)
+        return true;
 
-    return true;
+    return false;
 }
 
 function validRadius(rRadius) {
-    if (rRadius.value == null)
+    if (rRadius == null)
         return false;
 
-    if (rRadius.value > 5.0)
-        return false;
+    else if (2.0 <= rRadius.value && rRadius.value <= 5.0)
+        return true;
 
-    if (rRadius.value < 2.0)
-        return false;
-    return true;
+    return false;
 }
 
 let checkButton = document.getElementById("idForCheckPoint");

@@ -24,12 +24,12 @@
                     <br>
                     <div class="form-group y__coordinate__div">
                         <h5 style="float: left">Выбирайте координату Y</h5>
-                        <input type="text" name="y__coordinate" id="yCoordinate" class="form-control" placeholder="{-3..5}">
+                        <input type="number" name="y__coordinate" id="yCoordinate" class="form-control" placeholder="{-3..5}">
                     </div>
 
                     <div class="form-group r__radius__div">
                         <h5 style="float: left">Выбирайте радиус R</h5>
-                        <input type="text" name="r__radius" id="rRadius" class="form-control" placeholder="{2..5}">
+                        <input type="number" name="r__radius" id="rRadius" class="form-control" placeholder="{2..5}">
                     </div>
 
                     <div class="modal-footer">
