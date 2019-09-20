@@ -17,19 +17,19 @@
                     <h5 style="text-align: left; margin-left: 30px">Выбирайте координату X</h5>
                     <?php for ($i = -4; $i <= 4; ++$i): ?>
                         <div class="custom-control custom-checkbox mr-sm-2 x__coordinate__div">
-                            <input type="checkbox" class="custom-control-input x__coordinate" id="idForXCoordinate<?php echo $i?>" name="number_<?php echo $i?>" value="number_<?php echo $i?>" >
+                            <input type="checkbox" class="custom-control-input x__coordinate" id="idForXCoordinate<?php echo $i?>" name="number_" value="number_<?php echo $i?>" >
                             <label class="custom-control-label" for="idForXCoordinate<?php echo $i?>" ><?php echo $i?></label>
                         </div>
                     <?php endfor; ?>
                     <br>
                     <div class="form-group y__coordinate__div">
                         <h5 style="float: left">Выбирайте координату Y</h5>
-                        <input type="number" name="y__coordinate" id="yCoordinate" class="form-control" placeholder="{-3..5}">
+                        <input type="text" name="y__coordinate" id="yCoordinate" class="form-control" placeholder="(-3..5)">
                     </div>
 
                     <div class="form-group r__radius__div">
                         <h5 style="float: left">Выбирайте радиус R</h5>
-                        <input type="number" name="r__radius" id="rRadius" class="form-control" placeholder="{2..5}">
+                        <input type="text" name="r__radius" id="rRadius" class="form-control" placeholder="(2..5)">
                     </div>
 
                     <div class="modal-footer">

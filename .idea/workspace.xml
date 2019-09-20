@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="077037f2-7b66-4910-b452-331952b9fe55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/check_point.php" beforeDir="false" afterPath="$PROJECT_DIR$/check_point.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/check_point.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/check_point.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +80,8 @@
       <workItem from="1567594080592" duration="22350000" />
       <workItem from="1567692543657" duration="17794000" />
       <workItem from="1567758768456" duration="9564000" />
-      <workItem from="1568830541089" duration="2355000" />
+      <workItem from="1568830541089" duration="2575000" />
+      <workItem from="1568969089957" duration="8679000" />
     </task>
     <servers />
   </component>
@@ -92,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

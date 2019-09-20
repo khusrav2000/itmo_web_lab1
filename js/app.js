@@ -31,7 +31,19 @@ rRadius.addEventListener('input', function (event) {
 function validYCoordinate(yCoordinate) {
     if (yCoordinate == null)
         return false;
-    else if (-3.0 <= yCoordinate.value && yCoordinate.value <= 5.0)
+
+    if (yCoordinate.length > 10000)
+        return false;
+    let y;
+    try {
+        y = parseFloat(yCoordinate.value);
+    } catch (e) {
+        return false;
+    }
+
+    console.log(y);
+
+    if (-3.0 < y && y < 5.0)
         return true;
 
     return false;
@@ -41,7 +53,19 @@ function validRadius(rRadius) {
     if (rRadius == null)
         return false;
 
-    else if (2.0 <= rRadius.value && rRadius.value <= 5.0)
+    if (rRadius.length > 10000)
+        return false;
+
+    let r;
+    try{
+        r = parseFloat(rRadius.value);
+    } catch (e) {
+        return false;
+    }
+
+    console.log(r);
+
+    if (2.0 < r && r < 5.0)
         return true;
 
     return false;
