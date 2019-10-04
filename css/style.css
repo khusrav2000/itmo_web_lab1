@@ -51,3 +51,8 @@
 .table__result__texts {
     text-align: center;
 }
+
+.check__box__invalid_text {
+    color: red;
+    visibility: hidden;
+}

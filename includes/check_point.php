@@ -22,6 +22,8 @@
                         </div>
                     <?php endfor; ?>
                     <br>
+                    <h5 id="invalidCheckBox" class="check__box__invalid_text">Выберите одну координату Х.</h5>
+                    <br>
                     <div class="form-group y__coordinate__div">
                         <h5 style="float: left">Выбирайте координату Y</h5>
                         <input type="text" name="y__coordinate" id="yCoordinate" class="form-control" placeholder="(-3..5)">

@@ -35,6 +35,11 @@ function validYCoordinate(yCoordinate) {
     if (yCoordinate.length > 10000)
         return false;
     let y;
+
+    if (isNaN(yCoordinate.value)){
+        return false;
+    }
+
     try {
         y = parseFloat(yCoordinate.value);
     } catch (e) {
@@ -55,6 +60,10 @@ function validRadius(rRadius) {
 
     if (rRadius.length > 10000)
         return false;
+
+    if (isNaN(rRadius.value)){
+        return false;
+    }
 
     let r;
     try{
@@ -94,8 +103,16 @@ for (let i = -4; i <= 4; i++) {
 
         if (countCheckedX === 1) {
             xCoordinateValid = true;
+            document.getElementById("invalidCheckBox").style.cssText=`visibility: hidden`;
             disableCheckButton();
         } else {
+
+            if (countCheckedX > 1){
+                document.getElementById("invalidCheckBox").style.cssText=`visibility: visible`;
+            }
+            if (countCheckedX === 0){
+                document.getElementById("invalidCheckBox").style.cssText=`visibility: visible`;
+            }
 
             xCoordinateValid = false;
             disableCheckButton();
